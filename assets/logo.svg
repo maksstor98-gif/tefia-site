@@ -1,14 +1,15 @@
 <svg width="220" height="220" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <polygon points="50,10 15.4,30 15.4,70 50,90 84.6,70 84.6,30" stroke="#b0903f" stroke-width="2" fill="none"/>
-  <polygon points="90,50 70,15.4 30,15.4 10,50 30,84.6 70,84.6" stroke="#c9ad63" stroke-width="1.6" fill="none"/>
-  <path d="M22 26 Q30 14 44 12" stroke="#8a9a6b" stroke-width="1.8" fill="none" stroke-linecap="round"/>
-  <ellipse cx="26" cy="21.5" rx="4.6" ry="2" fill="#8a9a6b" transform="rotate(-38 26 21.5)"/>
-  <ellipse cx="33" cy="16.5" rx="4.6" ry="2" fill="#a9b78d" transform="rotate(-24 33 16.5)"/>
-  <ellipse cx="41" cy="13.5" rx="4.4" ry="1.9" fill="#8a9a6b" transform="rotate(-12 41 13.5)"/>
-  <path d="M78 74 Q70 86 56 88" stroke="#8a9a6b" stroke-width="1.8" fill="none" stroke-linecap="round"/>
-  <ellipse cx="74" cy="78.5" rx="4.6" ry="2" fill="#8a9a6b" transform="rotate(-38 74 78.5)"/>
-  <ellipse cx="67" cy="83.5" rx="4.6" ry="2" fill="#a9b78d" transform="rotate(-24 67 83.5)"/>
-  <ellipse cx="59" cy="86.5" rx="4.4" ry="1.9" fill="#8a9a6b" transform="rotate(-12 59 86.5)"/>
-  <text x="50" y="55" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-size="19" font-weight="600" letter-spacing="1.5" fill="#b0903f">TEFIA</text>
-  <text x="50" y="66" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="6" letter-spacing="3" fill="#5f6f46">CLINIC</text>
+  <polygon points="50,10 15.4,30 15.4,70 50,90 84.6,70 84.6,30" stroke="#d49816" stroke-width="2.4" fill="none"/>
+  <polygon points="90,50 70,15.4 30,15.4 10,50 30,84.6 70,84.6" stroke="#d49816" stroke-width="2.4" fill="none"/>
+  <path d="M78 26 Q70 14 56 12" stroke="#8abe6c" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="74" cy="21.5" rx="4.6" ry="2" fill="#8abe6c" transform="rotate(38 74 21.5)"/>
+  <ellipse cx="67" cy="16.5" rx="4.6" ry="2" fill="#a5cf8c" transform="rotate(24 67 16.5)"/>
+  <ellipse cx="59" cy="13.5" rx="4.4" ry="1.9" fill="#8abe6c" transform="rotate(12 59 13.5)"/>
+  <path d="M22 74 Q30 86 44 88" stroke="#8abe6c" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <ellipse cx="26" cy="78.5" rx="4.6" ry="2" fill="#8abe6c" transform="rotate(38 26 78.5)"/>
+  <ellipse cx="33" cy="83.5" rx="4.6" ry="2" fill="#a5cf8c" transform="rotate(24 33 83.5)"/>
+  <ellipse cx="41" cy="86.5" rx="4.4" ry="1.9" fill="#8abe6c" transform="rotate(12 41 86.5)"/>
+  <text x="50" y="54" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-size="19" font-weight="600" letter-spacing="1.5" fill="#d49816">TEFIA</text>
+  <line x1="31" y1="58.5" x2="69" y2="58.5" stroke="#d49816" stroke-width="1.4"/>
+  <text x="50" y="67" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="6" letter-spacing="3" fill="#d49816">CLINIC</text>
 </svg>

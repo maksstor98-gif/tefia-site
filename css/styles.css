@@ -4,28 +4,28 @@
    ============================================================ */
 
 :root {
-  /* Цвета бренда */
-  --gold: #b0903f;
-  --gold-soft: #c9ad63;
-  --gold-pale: #e9ddbb;
-  --green: #5f6f46;
-  --green-deep: #3f4a2e;
-  --green-soft: #8a9a6b;
-  --green-mist: #eef0e6;
-  --ink: #262a1f;
-  --ink-soft: #5c6153;
+  /* Цвета бренда (сняты с логотипа: янтарное золото + свежая зелень) */
+  --gold: #d49816;
+  --gold-soft: #e3b13f;
+  --gold-pale: #f1dfae;
+  --green: #679f47;
+  --green-deep: #2f4d21;
+  --green-soft: #8abe6c;
+  --green-mist: #eef5e7;
+  --ink: #25301d;
+  --ink-soft: #5a6350;
   --paper: #fdfcf8;
-  --cream: #f6f3ea;
+  --cream: #f8f4e6;
   --white: #ffffff;
-  --line: #e5e0d0;
+  --line: #eae3cf;
 
   /* Типографика */
   --font-display: "Playfair Display", "Georgia", serif;
   --font-body: "Manrope", "Segoe UI", sans-serif;
 
   --radius: 16px;
-  --shadow: 0 10px 40px rgba(63, 74, 46, 0.09);
-  --shadow-soft: 0 4px 18px rgba(63, 74, 46, 0.07);
+  --shadow: 0 10px 40px rgba(47, 77, 33, 0.10);
+  --shadow-soft: 0 4px 18px rgba(47, 77, 33, 0.07);
   --container: 1180px;
 }
 
@@ -72,9 +72,9 @@ ul { list-style: none; }
 .btn-gold {
   background: linear-gradient(135deg, var(--gold) 0%, var(--gold-soft) 100%);
   color: var(--white);
-  box-shadow: 0 6px 20px rgba(176, 144, 63, 0.35);
+  box-shadow: 0 6px 20px rgba(212, 152, 22, 0.35);
 }
-.btn-gold:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(176, 144, 63, 0.45); }
+.btn-gold:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(212, 152, 22, 0.45); }
 .btn-green {
   background: var(--green-deep);
   color: var(--white);
@@ -153,7 +153,7 @@ ul { list-style: none; }
   display: block;
   font-size: 9.5px;
   letter-spacing: 0.26em;
-  color: var(--green);
+  color: var(--gold);
   text-transform: uppercase;
   font-weight: 600;
   margin-top: 2px;
@@ -228,8 +228,8 @@ ul { list-style: none; }
 .hero {
   position: relative;
   background:
-    radial-gradient(900px 500px at 85% -10%, rgba(201, 173, 99, 0.16), transparent 60%),
-    radial-gradient(700px 500px at -10% 110%, rgba(138, 154, 107, 0.14), transparent 60%),
+    radial-gradient(900px 500px at 85% -10%, rgba(227, 177, 63, 0.18), transparent 60%),
+    radial-gradient(700px 500px at -10% 110%, rgba(138, 190, 108, 0.16), transparent 60%),
     var(--cream);
   overflow: hidden;
 }
@@ -396,7 +396,7 @@ ul { list-style: none; }
 .section-cream { background: var(--cream); }
 .section-green {
   background:
-    radial-gradient(800px 400px at 90% 0%, rgba(201, 173, 99, 0.12), transparent 55%),
+    radial-gradient(800px 400px at 90% 0%, rgba(227, 177, 63, 0.16), transparent 55%),
     var(--green-deep);
   color: var(--white);
 }
@@ -543,7 +543,7 @@ a.card { display: block; }
 /* ---------- CTA-баннер ---------- */
 .cta-banner {
   background:
-    radial-gradient(700px 300px at 15% 0%, rgba(201, 173, 99, 0.25), transparent 60%),
+    radial-gradient(700px 300px at 15% 0%, rgba(227, 177, 63, 0.28), transparent 60%),
     linear-gradient(120deg, var(--green-deep), var(--green));
   border-radius: 28px;
   padding: 64px 56px;
@@ -617,7 +617,7 @@ a.card { display: block; }
   font-size: 15.5px;
 }
 .gold-box {
-  background: linear-gradient(135deg, rgba(201, 173, 99, 0.12), rgba(201, 173, 99, 0.04));
+  background: linear-gradient(135deg, rgba(212, 152, 22, 0.10), rgba(212, 152, 22, 0.03));
   border: 1px solid var(--gold-pale);
   border-radius: var(--radius);
   padding: 28px 30px;
