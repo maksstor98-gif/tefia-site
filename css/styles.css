@@ -140,7 +140,20 @@ ul { list-style: none; }
   max-width: 1360px;
 }
 .logo { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
-.logo svg { display: block; width: 48px; height: 48px; }
+.logo-img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  /* белый фон JPEG растворяется на светлой шапке */
+  mix-blend-mode: multiply;
+}
+.footer .logo-img {
+  mix-blend-mode: normal;
+  background: var(--white);
+  border-radius: 14px;
+  padding: 4px;
+}
 .logo-text { line-height: 1.05; }
 .logo-text .logo-name {
   font-family: var(--font-display);
