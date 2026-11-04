@@ -54,7 +54,9 @@ for (const lang of LANGS) {
       .replace(/src="assets\//g, 'src="../assets/')
       .replace(/href="assets\//g, 'href="../assets/');
     html = html.replace(/<body data-page="([^"]+)">/, `<body data-page="$1" data-lang="${lang.dir}" data-root="../">`);
-    html = html.replace("</head>", hreflangBlock(page) + "\n</head>");
+    if (!html.includes('hreflang="ru"')) {
+      html = html.replace("</head>", hreflangBlock(page) + "\n</head>");
+    }
 
     writeFileSync(`${lang.dir}/${page}`, html, "utf8");
   }
