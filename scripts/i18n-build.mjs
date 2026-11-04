@@ -7,7 +7,7 @@ const LANGS = [
   { dir: "en", html: "en", dict: "i18n/en.json" },
   { dir: "zh", html: "zh-CN", dict: "i18n/zh.json" },
 ];
-const BASE = "https://maksstor98-gif.github.io/tefia-site/";
+const BASE = "https://tefia.kz/";
 const CYR = /[а-яА-ЯёЁіІңҢғҒүҮұҰқҚөӨһҺәӘ]/;
 
 function hreflangBlock(file) {
